@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cloud & Cove soap dishes — thoughtful ceramics for everyday rituals.">
+  <title>Cloud & Cove — Soap Dishes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Cloud and Cove home">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i></span>
+      <span>CLOUD & COVE</span>
+    </a>
+    <nav class="nav" aria-label="Main navigation">
+      <a class="active" href="#shop">Shop</a>
+      <a href="#story">Our story</a>
+      <a href="#journal">Journal</a>
+    </nav>
+    <button class="cart-button" type="button" aria-label="Open shopping bag">
+      Bag <span class="cart-count">0</span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero" id="story">
+      <div class="hero-copy">
+        <p class="eyebrow">A better place for your soap</p>
+        <h1>Small ritual.<br><em>Beautifully held.</em></h1>
+        <p class="hero-lede">Hand-finished ceramic dishes made to drain, last, and quietly elevate your everyday wash.</p>
+        <a class="button" href="#shop">Shop the collection <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="hero-art">
+        <img src="images/hero.svg" alt="Stone and ivory ceramic soap dishes">
+        <div class="hero-note">
+          <span>01</span>
+          <p>Made slowly<br>for daily use</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="collection" id="shop">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">The collection</p>
+          <h2>Choose your vessel</h2>
+        </div>
+        <p>Designed in soft, useful forms.<br>Glazed by hand in small batches.</p>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card" data-id="tide" data-name="The Tide" data-price="38">
+          <a class="product-image" href="#" aria-label="View The Tide soap dish">
+            <span class="badge">Bestseller</span>
+            <img src="images/soap-dish-1.svg" alt="The Tide ivory ceramic soap dish">
+            <button class="quick-add" type="button" aria-label="Add The Tide to bag">+</button>
+          </a>
+          <div class="product-info">
+            <div>
+              <h3>The Tide</h3>
+              <p>Chalk / hand-glazed ceramic</p>
+            </div>
+            <strong>$38</strong>
+          </div>
+        </article>
+
+        <article class="product-card" data-id="cove" data-name="The Cove" data-price="42">
+          <a class="product-image cool" href="#" aria-label="View The Cove soap dish">
+            <span class="badge">New</span>
+            <img src="images/soap-dish-2.svg" alt="The Cove stone ceramic soap dish">
+            <button class="quick-add" type="button" aria-label="Add The Cove to bag">+</button>
+          </a>
+          <div class="product-info">
+            <div>
+              <h3>The Cove</h3>
+              <p>Sea stone / hand-glazed ceramic</p>
+            </div>
+            <strong>$42</strong>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="values" id="journal">
+      <article><span>01</span><h3>Raised ridges</h3><p>Keeps soap dry, firm, and ready for the next use.</p></article>
+      <article><span>02</span><h3>Natural clay</h3><p>Durable stoneware, shaped and glazed without compromise.</p></article>
+      <article><span>03</span><h3>Small batch</h3><p>Made in considered quantities, with subtle variations.</p></article>
+    </section>
+  </main>
+
+  <aside class="bag-drawer" aria-hidden="true">
+    <div class="bag-header"><h2>Your bag</h2><button class="close-bag" type="button" aria-label="Close bag">×</button></div>
+    <div class="bag-items"></div>
+    <div class="bag-footer"><div><span>Subtotal</span><strong class="bag-total">$0</strong></div><button class="checkout-button" type="button">Checkout</button></div>
+  </aside>
+  <div class="bag-overlay"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
