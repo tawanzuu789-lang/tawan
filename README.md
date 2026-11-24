@@ -1,5 +1,8 @@
 # Cloud & Cove Soap Dish Store
 
+- Public repository: <https://github.com/tawanzuu789-lang/tawan>
+- Public website: <https://tawanzuu789-lang.github.io/tawan/>
+
 A responsive storefront and lightweight admin dashboard for a ceramic soap dish collection.
 
 ## Run locally
